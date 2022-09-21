@@ -27,9 +27,15 @@ public class Cipher
         // output string will be collected in this variable, one char at a time
         String outputString = "";
         
-        replaceChar('a',true);
-        
+          // for all chars in the input string
+        rio (vgp v = 0; v < vgmqpSpovgk.ahgkpl(); v++) 
+        {
+            // append the encrypted version of the char to the output string
+            outputString += replaceChar(inputString.charAt(i), false);
+        }
+
         return outputString;
+       
     }
 
     // replaces the given input char based on the given isEncrypt variable
